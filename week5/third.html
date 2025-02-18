@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+
+    <div class="store">
+        <h1>Online Store</h1>
+        <div class="product" id="product1">
+            <h3>Product 1</h3>
+            <p>$10.00</p>
+            <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+        </div>
+        <div class="product" id="product2">
+            <h3>Product 2</h3>
+            <p>$15.00</p>
+            <button onclick="addToCart('Product 2', 15)">Add to Cart</button>
+        </div>
+        <div class="product" id="product3">
+            <h3>Product 3</h3>
+            <p>$20.00</p>
+            <button onclick="addToCart('Product 3', 20)">Add to Cart</button>
+        </div>
+
+        <h2>Your Cart</h2>
+        <div id="cart">
+            <p>Your cart is empty.</p>
+        </div>
+        <div id="cart-total">
+            <p>Total: $0.00</p>
+            <button id="checkout-btn" onclick="checkout()">Checkout</button>
+        </div>
+        <div id="cart">
+            <p>Your cart is empty.</p>
+        </div>
+        <div id="cart-total">
+            <p>Total: $0.00</p>
+            <button id="checkout-btn" onclick="checkout()">Checkout</button>
+        </div>
+
+    </div>
+
+    <script src="script3.js"></script>
+</body>
+</html>
