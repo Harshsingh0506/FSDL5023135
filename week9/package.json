@@ -1,0 +1,8 @@
+{
+    "homepage": "https://Harshsingh0506.github.io/FSDL5023135",
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    }
+  }
+  
